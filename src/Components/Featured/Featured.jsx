@@ -16,6 +16,7 @@ const Featured = () => {
               </div>
             <div className="quote-abt">
             <h1>Life on Two Wheels!</h1>
+            <h1>Life on Two Wheels!</h1>
             <div className="line"></div>
                     <p>“On a motorcycle, you can’t really think about more than where you are. There’s a freedom that comes with that – from stress, worry, sweating the small stuff.” ― <b>Laurence Fishburne</b></p>
                     <p> “Animals travel on all fours. Mankind on two. Motorcycling is not a means of transport but an ideology, a nomadic way of life.” ― <b>Amit Reddy</b></p>
