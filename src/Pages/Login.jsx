@@ -3,6 +3,9 @@ import './Login.css'
 import { FaUser } from "react-icons/fa";
 import { FaLock } from "react-icons/fa";
 import loginimg from '../Components/Assets/Login-amico.png'
+import Signup from './Signup';
+import ForgetPw from './ForgetPw';
+
 
 const Login = () => {
   return (
@@ -15,7 +18,7 @@ const Login = () => {
                 <img src={loginimg} alt=''/>
                 </div>
                 <div className='input-box'>
-                  <input type="text" placeholder='Username' required/>
+                  <input type="text" placeholder='Username or Email' required/>
                   <FaUser className='icon'/>
                 </div>
                 <div className='input-box'>
@@ -25,14 +28,14 @@ const Login = () => {
 
                 <div className='remember-forgot'>
                   <label><input type='checkbox'/>Remember me</label>
-                  <a href='#'>Forgot Password?</a>
+                  <a href='ForgetPw'>Forgot Password?</a>
                 </div>
 
 
-                <button type='submit'>Login</button>
+                <button type='submit'>Log in</button>
 
                 <div className='register-link'>
-                  <p>Don't have an account?  <a href='#'>Register</a></p>
+                  <p>Don't have an account?  <a href='Signup'>Register</a></p>
                 </div>
               </form>
             </div>
