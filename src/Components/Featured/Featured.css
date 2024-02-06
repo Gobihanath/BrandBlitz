@@ -1,70 +1,49 @@
-.feature-container{
-   width:100%;
-   height: 100%;
-   position: relative;
-   padding-top: 700px;
+.feature-container {
+    display: flex;
+    width:100%;
+    height: 100%;
+    position: relative;
+    
+
 }
 
-.content {
-   position: absolute;
-   transform: translate(-50%,-50%);
-   top: 50%;
-   text-align: center;
-   padding-bottom: 100px;
- }
-
-.quote{
-   width: 100%;
+.head {
+    text-align: center;
 }
 
- .quote-image video{
-   width: 100%;
-   height: 500px;
-   background-position: center;
-   background-size: cover;
-   object-fit:cover ;
-   padding-top:100px ;
- 
- }
+.left-r{
+    flex:1 1;
+    display: flex;
+    padding-left: 20px;
 
+}
+.left-r video{
+    width: 550px;
+    height: 600px;
+}
 
- .quote .row1{
-   align-items: center;
-   display: flex;
- }
- .quote .row1 .quote-abt h1{
-   font-size: 4vmin;
-   text-align: center;
-   color: #000;
- }
- 
- .quote-abt p{
-   color: #7c7c7c;
-   padding:  10px 40px;
-   font-size: 2vmin;
-   text-align: justify;
- }
- 
-  
- .quote-abt{
-   width: 100%;
-   align-items: center;
-   margin-bottom: 100px;
-   margin-left: 30px;
- }
- 
- .quote-image video{
-  width: 400px;
-  height: 500px;
- }
- 
- .quote-image{
-   display: flex;
-   width: 100%;
-   align-items: center;
- }
- 
- .quote-image{
-   width: 600px;
-   height: 400px;
- }
+.right-r{
+    flex: 1 1;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.right-r h2{
+    font-size: 24px;
+}
+.right-r p{
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+
+.row{
+    display: flex;
+    align-items: space-between;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+}
