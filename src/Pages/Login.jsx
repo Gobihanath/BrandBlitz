@@ -1,15 +1,19 @@
 import React from 'react'
-import './LoginSignup.css'
+import './Login.css'
 import { FaUser } from "react-icons/fa";
 import { FaLock } from "react-icons/fa";
+import loginimg from '../Components/Assets/Login-amico.png'
 
-const LoginSignup = () => {
+const Login = () => {
   return (
 
           <div className='loginsignup'>
             <div className='wrapper'>
               <form action=''>
+                <div className='login-head'>
                 <h1>Login</h1>
+                <img src={loginimg} alt=''/>
+                </div>
                 <div className='input-box'>
                   <input type="text" placeholder='Username' required/>
                   <FaUser className='icon'/>
@@ -36,4 +40,5 @@ const LoginSignup = () => {
   )
 }
 
-export default LoginSignup
+export default Login 
+

@@ -9,7 +9,6 @@ const Home = () => {
       <Navbar/>   
       <Hero/>
       <Featured/>
-      
     </div>
   )
 }
