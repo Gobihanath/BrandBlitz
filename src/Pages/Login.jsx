@@ -1,10 +1,10 @@
 import React from 'react'
-import './LoginSignup.css'
+import './Login.css'
 import { FaUser } from "react-icons/fa";
 import { FaLock } from "react-icons/fa";
 import loginimg from '../Components/Assets/Login-amico.png'
 
-const LoginSignup = () => {
+const Login = () => {
   return (
 
           <div className='loginsignup'>
@@ -40,5 +40,5 @@ const LoginSignup = () => {
   )
 }
 
-export default LoginSignup 
+export default Login 
 

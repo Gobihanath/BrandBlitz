@@ -1,10 +1,10 @@
 
 .loginsignup{
-    padding-top: 150px;
+    padding-top: 130px;
     align-items: center;
     justify-content: center;
     padding-left: 350px;
-    background-color:;
+    background-color:rgba(0,0,0,.1);
     background-size: cover;
     background-position: cover center;
 }
@@ -17,7 +17,7 @@
     border-radius: 20px;
     border: 1px solid rgba(255,255,255,2);
     align-items: center;
-    background:transparent;
+    background:black;
     color: aliceblue;
     padding: 30px;
 }
