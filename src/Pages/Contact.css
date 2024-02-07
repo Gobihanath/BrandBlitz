@@ -1,0 +1,215 @@
+
+.contact-container {
+    padding-top: 100px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.contact-wrapper {
+    background-image: url('E:\WebApp\BrandBlitz\src\Components\Assets\audio-headset-used-by-call-center-agents-help-clients-telecommunication-with-technology-empty-customer-service-workstation-with-headphones-computers-modern-gadgets.jpg');
+    height: 50vh;
+    width: 100%;
+    background-position: 50% 100%;
+    background-attachment: fixed;
+    text-align: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.contact-wrapper h2{
+    font-weight: 4 rem;
+    font-size: 2rem;
+    font-weight: 400;
+    color:black;
+
+}
+
+.contact-wrapper h1{
+    font-weight: 3 rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 0.4rem 0;
+    letter-spacing: 4px;
+    color: aliceblue;
+
+}
+
+
+.line div{
+    margin: 0 0.2rem;
+}
+
+.line div:nth-child(1),
+.line div:nth-child(3){
+    height: 3px;
+    width: 70px;
+    background: darkcyan;
+    border-radius: 5px;
+}
+
+.line{
+    display: flex;
+    align-items: center;
+}
+
+.line div:nth-child(2){
+    height: 3px;
+    width: 70px;
+    background:rgb(214, 102, 201);
+    border-radius: 5px;
+
+}
+
+.text{
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+.contact-body{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding:0 1rem
+}
+
+.contact-info{
+    margin:3rem 0;
+    text-align: center;
+    padding: 0;
+}
+
+.contact-info div{
+   margin:0.8rem 0;
+   padding: 1rem;
+}
+
+.contact-info div .icon{
+    font-size: 2rem;
+    color: rgb(245, 148, 13);
+}
+
+.contact-info div p{
+    font-weight: 600;
+    font-size: 1.1 rem;
+}
+
+.contact-info .t1{
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+.contact-form{
+    padding:2rem 0;
+    border-top: 1px solid black;
+}
+
+.contact-form form{
+    padding-bottom: 1rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.form-control{
+    width:100%;
+    border:1.5px solid #c7c7c7;
+    border-radius: 5px;
+    margin:0.6rem 0;
+    padding: 0.7rem;
+    font-size: 1rem;
+    outline: 0;
+}
+
+.form-control:focus{
+    box-shadow: 0 0 6px -3px rgba(48, 48, 48, 1);
+}
+
+.contact-form form div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    
+}
+
+.send-btn{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color:#fff ;
+    background: rgb(96, 122, 201);
+    border: none;
+    border-radius: 5px;
+    padding: 0.7rem 1.5rem;
+    cursor: pointer;
+    transition: all 0.4s ease;
+
+}
+
+.send-btn:hover{
+    opacity: 0.8;
+}
+
+.contact-form img{
+    width:80%;
+}
+
+.contact-form > div{
+    margin:0 auto;
+    text-align:center
+}
+
+.Map {
+    width: 100%;
+    height:400px;
+}
+
+.Map .mp{
+    width:100%;
+    height: 400px;
+}
+.contact-footer{
+    padding:2rem 0;
+    background: black;
+}
+
+.contact-footer h3{
+    font-size:1.3rem ;
+    color: #fff;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.Social-links{
+    display: flex;
+    justify-content: center;
+}
+.Social-links .icon1{
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.4rem;
+    transition: all 0.4s ease;
+}
+.Social-links .icon1:hover{
+    color:dodgerblue;
+}
+
+.contact-wrapper .text{
+    width: 50%;
+}
+
+.contact-info{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.contact-form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}

@@ -80,16 +80,16 @@
     height:30px;
     outline: none;
     border: 1px solid black;
-    border-radius: 10px;
-    color:black;
+    border-radius: 5px;
+    color:aliceblue;
     font-size: 15px;
     font-weight: 600;
     cursor: pointer;
-    background:rgb(189, 188, 200);
+    background:rgb(11, 11, 11);
 
 
 }
 
 .nav-contact button:active{
-    background: lightgreen;
+    background:rgb(78, 123, 191);
 } 

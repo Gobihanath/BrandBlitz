@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Navbar.css'
 import logo from '../Assets/LogoVector.png'
 import { Link } from 'react-router-dom'
+import Contact from '../../Pages/Contact'
 
 
 const Navbar = () => {
