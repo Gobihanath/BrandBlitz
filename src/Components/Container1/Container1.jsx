@@ -12,9 +12,7 @@ const Container1 = () => {
 
     </div>
 
-
     </div>
-    <div><h1>Gobiiii</h1></div>
     </div>
 
 

@@ -6,7 +6,7 @@
 }
 
 .contact-wrapper {
-    background-image: url('E:\WebApp\BrandBlitz\src\Components\Assets\audio-headset-used-by-call-center-agents-help-clients-telecommunication-with-technology-empty-customer-service-workstation-with-headphones-computers-modern-gadgets.jpg');
+    background-image: url('E:BrandBlitz/src/Components/Assets/audio-headset-used-by-call-center-agents-help-clients-telecommunication-with-technology-empty-customer-service-workstation-with-headphones-computers-modern-gadgets.jpg');
     height: 50vh;
     width: 100%;
     background-position: 50% 100%;
@@ -156,7 +156,7 @@
 
 .contact-form > div{
     margin:0 auto;
-    text-align:center
+    text-align:center;
 }
 
 .Map {
