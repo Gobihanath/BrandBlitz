@@ -52,6 +52,7 @@ ul{
      box-sizing: border-box;
      width: 60px;
      text-align: center;
+     margin-left: 10px;
  }
  .footer-col ul li:not(:last-child){
      margin-bottom: 10px;
