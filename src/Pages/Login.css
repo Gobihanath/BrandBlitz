@@ -1,17 +1,17 @@
 
-.loginsignup{
+.login-signup{
     padding-top: 130px;
     align-items: center;
     justify-content: center;
     padding-left: 350px;
-    background-color:#adbedc;
-    background-size: cover;
+    background-color:#d8dde1;
+    background-size: auto;
     background-position: cover center;
 }
 
 .wrapper{
     width:300px;
-    height: 400px;
+    height: 500px;
     margin-left: 100px;
     justify-content: center;
     border-radius: 20px;

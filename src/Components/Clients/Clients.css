@@ -1,0 +1,42 @@
+/* Clients.css */
+.clients {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .clients h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .clients p {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  .clients .highlight {
+    color: #c5d309;
+    font-weight: bold;
+  }
+  
+  .clients .without-you {
+    font-size: 1em;
+    color: #777;
+    margin-top: 20px;
+  }
+  
+  .clients-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .clients-logos img {
+    margin: 20px;
+    width: 120px;
+    max-height: 100px;
+  }
+  
