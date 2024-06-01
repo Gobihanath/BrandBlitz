@@ -56,7 +56,7 @@ const Footer = () => {
             </div>
 
             <div className='footer-col'>
-              <h4>Follow Us</h4>
+              <h4>Follow us</h4>
               <div className='social-links'>
               <FaFacebookF className='icon2' />
               <FaInstagram className='icon2' />

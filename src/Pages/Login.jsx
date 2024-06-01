@@ -10,7 +10,7 @@ import ForgetPw from './ForgetPw';
 const Login = () => {
   return (
 
-          <div className='loginsignup'>
+          <div className='login-signup'>
             <div className='wrapper'>
               <form action=''>
                 <div className='login-head'>
