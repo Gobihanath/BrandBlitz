@@ -143,3 +143,36 @@ h1 {
 .learn-more-button:hover {
   background-color: #0056b3;
 }
+
+.h1{
+  font-size: 20px;
+  padding-left: 100px;
+}
+
+.container-2{
+  padding-top: 0%;
+  background-color: rgb(255, 255, 0,0.6);
+  overflow: hidden;
+}
+
+.video{
+  /* padding: 0 300px 0 250px; */
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  
+}
+
+/* .video h1{
+  text-align: center;
+} */
+
+.hr{
+  width: 100px;
+  margin-left: 130px;
+}
+
+.container-2 p{
+  font-size: 13px;
+  padding-left: 100px;
+}

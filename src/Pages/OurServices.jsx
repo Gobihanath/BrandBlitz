@@ -11,6 +11,7 @@ import InfluenceMarketing from '../Components/Assets/InfluenceMarketing.jpg'
 import News from '../Components/Assets/News.jpg'
 import WebDesign from '../Components/Assets/WebDesign.jpg'
 import Footer from '../Components/Footer/Footer'
+import Clients from '../Components/Clients/Clients'
 import YouTubeEmbed from '../Components/YouTubeEmbed/YouTubeEmbed';
 
 const OurServices = () => {
@@ -61,38 +62,43 @@ const OurServices = () => {
                 <img src={BrandStrategy} alt="BrandStrategy" />
                 <p>Brand Strategy</p>
                 <p className='p2'>Brand Positioning | Competitive Analysis</p>
-                <p className='p2'>Brand Identity Development | Brand Activation and Campaigns</p>
+                <p className='p2'>Brand Identity Development | Content Strategy</p>
                 <button className="learn-more-button">Learn More</button>
               </div>
               <div className="service">
                 <img src={ConsultingServices} alt="ConsultingServices" />
                 <p>Consulting Services</p>
-                <p className='p2'>top-tier consulting services, delivering tailored solutions to propel your business forward with precision and innovation. </p>
+                <p className='p2'>Financial Advisory | Risk Management</p>
+                <p className='p2'>Change Management | Performace Improvement</p>
                 <button className="learn-more-button">Learn More</button>
               </div>
               
               <div className="service">
                 <img src={PublicRelations} alt="PublicRelations" />
                 <p>Public Relations</p>
-                <p className='p2'>Delivering comprehensive public relations services to elevate your brand's reputation and foster meaningful connections </p>
+                <p className='p2'>Media Relations | Crisis Management</p>
+                <p className='p2'>Reputation Management | Community Relations</p>
                 <button className="learn-more-button">Learn More</button>
               </div>
               <div className="service">
                 <img src={InfluenceMarketing} alt="InfluenceMarketing" />
                 <p>Influencer Marketing</p>
-                <p className='p2'>Harnessing the power of influencer marketing to authentically connect your brand with targeted audiences </p>
+                <p className='p2'>Giveaways and Contests | Campaign Planning</p>
+                <p className='p2'>Sponsored Posts and Product Placements</p>
                 <button className="learn-more-button">Learn More</button>
               </div>
               <div className="service">
                 <img src={News} alt="News" />
                 <p>News Paper  & Magazine Marketing</p>
-                <p className='p2'>Strategically placing your brand in prominent publications to reach and captivate your target audience effectively</p>
+                <p className='p2'>Print Advertising Design | Ad Placement</p>
+                <p className='p2'>Advertorials and Sponsored Content</p>
                 <button className="learn-more-button">Learn More</button>
               </div>
               <div className="service">
                 <img src={WebDesign} alt="WebDesign" />
                 <p>Web design & development</p>
-                <p className='p2'>Elevate your online presence with our expert web design and development services, tailored for seamless functionality and captivating aesthetics. </p>
+                <p className='p2'>UI UX Design | Responsive Web Design</p>
+                <p className='p2'>Graphic Design and Visual Elements</p>
                 <button className="learn-more-button">Learn More</button>
               </div>
 
@@ -101,18 +107,19 @@ const OurServices = () => {
           </section>
           <section>
             <div className='container-2'>
-                <h1 id='h1'>STRATEGIC INSIGHT, </h1> <h1>DETAILED PLANNING, AND FLAWLESS EXECUTION.</h1>
-                <hr />
+                <h1 className='h1'>STRATEGIC INSIGHT, </h1> <h1 className='h1'>DETAILED PLANNING, AND FLAWLESS EXECUTION.</h1>
+                <hr className='hr'/>
                 <p>We transform briefs into success, helping clients capture attention and<br/> create desire with strategic insight, careful planning, and flawless execution.</p>
 
                 <div className='video'>
-                  <h1 id='h11'>My YouTube Video</h1>
+                  <h1>My YouTube Video</h1>
                   <br/>
                   <YouTubeEmbed videoId="GGSKpJGpyuo"/>
                 </div>
             </div>
             
           </section>
+          <Clients/>
           <Footer/>
    </div>
   

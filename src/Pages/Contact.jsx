@@ -9,6 +9,7 @@ import { FaInstagram } from "react-icons/fa";
 import { IoLogoTwitter } from "react-icons/io5";
 import contactimg from '../Components/Assets/4111242.jpg'
 
+
 const Contact = () => {
   return(
     <div className='contact-container'>
