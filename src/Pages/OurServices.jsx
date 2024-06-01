@@ -43,55 +43,55 @@ const OurServices = () => {
             <div className="services">
               <div className="service">
                 <img src={DigitalMarketing} alt="DigitalMarketing" />
-<<<<<<< HEAD
-                <p>Digital Marketing</p>
-                <p className='p2'>Specializes in delivering comprehensive digital marketing services tailored to boost your online presence.</p>
-=======
+                
                 <p className='p1'>Digital Marketing</p>
-                <p className='p2'>Comprehensive digital marketing services to boost your online presence and drive business growth. </p>
->>>>>>> a46e574f46e29efd5110fc6565c2a77b19eb4ed9
+                <p className='p2'>Online Video | Paid Search</p>
+                <p className='p2'>Partnerships | Programmatic Display</p>
+
                 <button className="learn-more-button">Learn More</button>
               </div>
               <div className="service">
                 <img src={EventPlanning} alt="EventPlanning" />
-                <p className='p1'>Event Planning</p>
-                <p className='p2'> Expert event planning services to create unforgettable experiences that elevate your brand and engage your audience. </p>
+                <p>Event Planning</p>
+                <p className='p2'>Venue Selection | Event Design and Theme</p>
+                <p className='p2'>Entertainement | Vendor management</p>
                 <button className="learn-more-button">Learn More</button>
               </div>
               <div className="service">
                 <img src={BrandStrategy} alt="BrandStrategy" />
-                <p className='p1'>Brand Strategy</p>
-                <p className='p2'> crafting impactful brand strategies to position your brand effectively in the market and drive long-term success. </p>
+                <p>Brand Strategy</p>
+                <p className='p2'>Brand Positioning | Competitive Analysis</p>
+                <p className='p2'>Brand Identity Development | Brand Activation and Campaigns</p>
                 <button className="learn-more-button">Learn More</button>
               </div>
               <div className="service">
                 <img src={ConsultingServices} alt="ConsultingServices" />
-                <p className='p1'>Consulting Services</p>
+                <p>Consulting Services</p>
                 <p className='p2'>top-tier consulting services, delivering tailored solutions to propel your business forward with precision and innovation. </p>
                 <button className="learn-more-button">Learn More</button>
               </div>
               
               <div className="service">
                 <img src={PublicRelations} alt="PublicRelations" />
-                <p className='p1'>Public Relations</p>
+                <p>Public Relations</p>
                 <p className='p2'>Delivering comprehensive public relations services to elevate your brand's reputation and foster meaningful connections </p>
                 <button className="learn-more-button">Learn More</button>
               </div>
               <div className="service">
                 <img src={InfluenceMarketing} alt="InfluenceMarketing" />
-                <p className='p1'>Influencer Marketing</p>
+                <p>Influencer Marketing</p>
                 <p className='p2'>Harnessing the power of influencer marketing to authentically connect your brand with targeted audiences </p>
                 <button className="learn-more-button">Learn More</button>
               </div>
               <div className="service">
                 <img src={News} alt="News" />
-                <p className='p1'>News Paper  & Magazine Marketing</p>
+                <p>News Paper  & Magazine Marketing</p>
                 <p className='p2'>Strategically placing your brand in prominent publications to reach and captivate your target audience effectively</p>
                 <button className="learn-more-button">Learn More</button>
               </div>
               <div className="service">
                 <img src={WebDesign} alt="WebDesign" />
-                <p className='p1'>Web design & development</p>
+                <p>Web design & development</p>
                 <p className='p2'>Elevate your online presence with our expert web design and development services, tailored for seamless functionality and captivating aesthetics. </p>
                 <button className="learn-more-button">Learn More</button>
               </div>
