@@ -11,6 +11,7 @@ import InfluenceMarketing from '../Components/Assets/InfluenceMarketing.jpg'
 import News from '../Components/Assets/News.jpg'
 import WebDesign from '../Components/Assets/WebDesign.jpg'
 import Footer from '../Components/Footer/Footer'
+import YouTubeEmbed from '../Components/YouTubeEmbed/YouTubeEmbed';
 
 const OurServices = () => {
   return (
@@ -42,8 +43,13 @@ const OurServices = () => {
             <div className="services">
               <div className="service">
                 <img src={DigitalMarketing} alt="DigitalMarketing" />
+<<<<<<< HEAD
+                <p>Digital Marketing</p>
+                <p className='p2'>Specializes in delivering comprehensive digital marketing services tailored to boost your online presence.</p>
+=======
                 <p className='p1'>Digital Marketing</p>
                 <p className='p2'>Comprehensive digital marketing services to boost your online presence and drive business growth. </p>
+>>>>>>> a46e574f46e29efd5110fc6565c2a77b19eb4ed9
                 <button className="learn-more-button">Learn More</button>
               </div>
               <div className="service">
@@ -92,6 +98,20 @@ const OurServices = () => {
 
             </div>
           </div>
+          </section>
+          <section>
+            <div className='container-2'>
+                <h1 id='h1'>STRATEGIC INSIGHT, </h1> <h1>DETAILED PLANNING, AND FLAWLESS EXECUTION.</h1>
+                <hr />
+                <p>We transform briefs into success, helping clients capture attention and<br/> create desire with strategic insight, careful planning, and flawless execution.</p>
+
+                <div className='video'>
+                  <h1 id='h11'>My YouTube Video</h1>
+                  <br/>
+                  <YouTubeEmbed videoId="GGSKpJGpyuo"/>
+                </div>
+            </div>
+            
           </section>
           <Footer/>
    </div>
