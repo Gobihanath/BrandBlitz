@@ -7,6 +7,7 @@ import Login from './Pages/Login';
 import Signup from './Pages/Signup';
 import ForgetPw from './Pages/ForgetPw';
 import Contact from './Pages/Contact';
+import AboutUs from './Pages/AboutUs';
 import OurServices from './Pages/OurServices';
 
 
@@ -21,6 +22,7 @@ function App() {
       <Route path='/signup' element={<Signup/>}/>
       <Route path='/ForgetPw' element={<ForgetPw/>}/>
       <Route path='/contact' element={<Contact/>}/>
+      <Route path='/AboutUs' element={<AboutUs/>}/>
       <Route path='/OurServices' element={<OurServices/>}/>
     </Routes>
 
