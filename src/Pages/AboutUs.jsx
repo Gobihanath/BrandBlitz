@@ -16,7 +16,6 @@ const AboutUs = () => {
       <div className="content1">
         <h2>About Us</h2>
         <p>Always With You</p>
-     
         </div>
         
       
