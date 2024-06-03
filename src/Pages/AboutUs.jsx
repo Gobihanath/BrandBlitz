@@ -25,12 +25,24 @@ const AboutUs = () => {
           <h2>A RESULTS-DRIVEN MEDIA PLANNING AND BUYING AGENCY THAT PUTS YOU FIRST.</h2>
           <p>Welcome to our company, a top independent media planning, buying, and advertising agency dedicated to merging your creativity with strategic media placement. More than just a marketing agency, we are architects of brand experiences, storytellers of compelling narratives, and strategic partners in your journey to success.
 
-            We believe in the power of authenticity and our mission is to amplify the essence of your brand, making it resonate deeply with your audience. Our focus on results-driven strategies, creative brilliance, and genuine passion for our work is designed to elevate your brand to new heights. Welcome to a partnership where your success is our purpose.
+            We believe in the power of authenticity and our mission is to amplify the essence of your brand, making it resonate deeply with your audience. Our focus on results-driven strategies, creative brilliance, and genuine passion for our work is designed to elevate your brand to new heights. Welcome to a partnership where your success is our purpose.<p></p>
+
+          <h2>Our Mission</h2>
+          <p>At BrandBlitz, we are driven by authenticity. Our mission is to elevate your brand’s true essence, ensuring it deeply resonates with your audience. With a focus on strategic outcomes, creative ingenuity, and a heartfelt passion for our work, we are dedicated to propelling your brand to unprecedented heights.</p>
           </p>
+
+          <h2>Our Vision</h2>
+          <p>Looking forward, we aim to continually redefine the possibilities in media planning, buying, and advertising. Our vision is to be the preferred partner for brands seeking meaningful connections with their audience and sustainable success.</p>
+
+          <h2>Join Us</h2>
+          <p>We invite you to embark on this exciting journey with us. Together, let’s create brand experiences that captivate, engage, and drive success. Welcome to a partnership where your triumph is our ultimate goal.</p>
+
       </div>
       </section>
     </section>
     
+   
+
         
           <Footer/>
    </div>
