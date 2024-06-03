@@ -39,7 +39,7 @@ const AboutUs = () => {
      
         <div className='row'>
       <div className='left-r'>
-      <video src={Video9} alt='' autoPlay muted/>
+      <video src={Video9} autoPlay loop muted> </video>
       </div>
       
       <div className='right-r'>
