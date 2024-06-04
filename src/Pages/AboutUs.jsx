@@ -63,7 +63,9 @@ const AboutUs = () => {
       
       </section>
         
+        <section>
           <Footer/>
+          </section>
           </div>
    
    
