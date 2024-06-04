@@ -28,7 +28,7 @@ const OurServices = () => {
       
     </div>
     <section>
-    <section>
+    <section> 
       <div className="services-content">
           <h2>Tailored Marketing Strategies for Your Success</h2>
           <p>Amidst the cacophony of modern media, ensuring your message resonates with precision is paramount. At BrandBlitz, we specialize in crafting bespoke media plans designed to elevate your brand's voice, captivate the right audience, and optimize your budget for maximum impact. Our suite of flexible services and custom solutions is tailored to suit your unique needs, delivering remarkable results every time.</p>

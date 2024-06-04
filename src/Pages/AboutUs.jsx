@@ -62,10 +62,10 @@ const AboutUs = () => {
       </div>
       
       </section>
-        
-        <section>
+      
           <Footer/>
-          </section>
+          
+          
           </div>
    
    
