@@ -3,6 +3,7 @@ import './DigitalMarketing.css'
 import {link} from 'react-router-dom'
 import video10 from '../Components/Assets/6558232-uhd_3840_2160_25fps.mp4'
 //import video11 from ''
+import Footer from '../Components/Footer/Footer'
 
 
 import Footer from '../Components/Footer/Footer'
@@ -20,7 +21,7 @@ const DigitalMarketing =() =>{
                 
             </div>
 
-        </div>
+       
 
         <div className='service-container'>
       <div className='title'>
@@ -42,10 +43,14 @@ const DigitalMarketing =() =>{
         <h2></h2>
     </div>
 
-        <footer/>
+       
         </div>
-
+         <Footer/>
+         </div>
 
     )
 
 }
+
+
+export default DigitalMarketing

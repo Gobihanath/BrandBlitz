@@ -13,7 +13,7 @@ import WebDesign from '../Components/Assets/WebDesign.jpg'
 import Footer from '../Components/Footer/Footer'
 import Clients from '../Components/Clients/Clients'
 import YouTubeEmbed from '../Components/YouTubeEmbed/YouTubeEmbed';
-//import digitalmarketing from '../Components/services/DigitalMarketing.jsx'
+import DigitalMarketing from '../Components/services/DigitalMarketing.jsx'
 
 const OurServices = () => {
   return (
@@ -49,8 +49,9 @@ const OurServices = () => {
                 <p className='p1'>Digital Marketing</p>
                 <p className='p2'>Online Video | Paid Search</p>
                 <p className='p2'>Partnerships | Programmatic Display</p>
-
+                <Link to="/DigitalMarketing">
                 <button className="learn-more-button" src="">Learn More</button>
+                </Link>
               </div>
               <div className="service">
                 <img src={EventPlanning} alt="EventPlanning" />
