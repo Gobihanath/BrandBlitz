@@ -9,8 +9,6 @@ import ForgetPw from './Pages/ForgetPw';
 import Contact from './Pages/Contact';
 import AboutUs from './Pages/AboutUs';
 import OurServices from './Pages/OurServices';
-import Digital_Marketing from './Components/services/DigitalMarketing.jsx';
-
 
 
 function App() {
@@ -26,7 +24,7 @@ function App() {
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/AboutUs' element={<AboutUs/>}/>
       <Route path='/OurServices' element={<OurServices/>}/>
-      <Route path='/Digital_Marketing' element={<Digital_Marketing/>}/>
+      
     </Routes>
 
 
