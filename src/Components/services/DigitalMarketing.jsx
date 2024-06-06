@@ -1,7 +1,7 @@
 import React from 'react';
-import './DigitalMarketing.css'
-import video10 from '../../Components/Assets/6558232-uhd_3840_2160_25fps.mp4'
-import video11 from '../../Components/Assets/6558144-uhd_3840_2160_25fps.mp4'
+import './Create.css'
+import photo1 from '../../Components/Assets/Digital_marketing2 (2).webp'
+import photo2 from '../../Components/Assets/Digital_marketing2 (1).webp'
 import Footer from '../../Components/Footer/Footer'
 
 
@@ -14,7 +14,7 @@ const DigitalMarketing =() =>{
     <div>
         <div className="zero">
             <div className="vid">
-                <video src={video10} autoPlay loop muted></video>
+                <img src={photo1} alt=""></img>
             </div>
             <div className="content1">
                 <h2>Digital Marketing</h2>
@@ -29,7 +29,7 @@ const DigitalMarketing =() =>{
             <hr/>
             <div className='collom'>
               <div className='left'>
-                <video src={video11} alt='' autoPlay muted/>
+                <img src={photo2} alt=""/>
               </div> 
               <div className='right'>
               <p>At our core, we are more than just a marketing agency; we are the architects of brand experiences, storytellers of compelling narratives, and strategic partners in your journey to success. As a top independent media planning, buying, and advertising company, we specialize in combining creativity with smart media placement to amplify your brand's authenticity.
@@ -61,9 +61,14 @@ const DigitalMarketing =() =>{
     </div>
 
 
+     
     </div>
 
-         
+
+     
+
+    
+    
     
 
     )
