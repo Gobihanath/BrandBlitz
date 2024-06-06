@@ -20,12 +20,13 @@ const DigitalMarketing =() =>{
                 <h2>Digital Marketing</h2>
                 
             </div>
+        </div>
 
 
 
         <div className='service-container'>
           <div className='title'>
-            <h1>We offer you a new way to enter to the Digital World</h1>
+            <h1>"We offer you a new way to enter to the Digital World"</h1>
             <hr/>
             <div className='collom'>
               <div className='left'>
@@ -42,7 +43,7 @@ const DigitalMarketing =() =>{
         </div>
 
         <div className="over">
-            <p>In the digital landscape, we excel at:
+            <p><span className="highlight">In the digital landscape, we excel at : </span><br/><br/>
 
                   Digital Media Planning and Buying: Utilizing data-driven insights to place your brand in front of the right audience at the right time.
                   Content Creation and Storytelling: Crafting compelling narratives that captivate and engage your target audience.
@@ -53,15 +54,13 @@ const DigitalMarketing =() =>{
         </div>
 
        
-        </div>
+        
 
       
     
 
     </div>
-
-
-     
+    <Footer/>
     </div>
 
 
