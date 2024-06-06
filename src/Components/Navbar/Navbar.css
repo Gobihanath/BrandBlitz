@@ -93,3 +93,8 @@
 .nav-contact button:active{
     background:rgb(78, 123, 191);
 } 
+
+.nav-menu li:hover a,
+.nav-menu .active a {
+    color: #748616;
+}
