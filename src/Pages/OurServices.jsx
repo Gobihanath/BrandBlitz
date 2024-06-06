@@ -71,7 +71,7 @@ function OurServices() {
               <img src={ConsultingServices} alt="ConsultingServices" />
               <p>Consulting Services</p>
               <p className='p2'>Financial Advisory | Risk Management</p>
-              <p className='p2'>Change Management | Performace Improvement</p>
+              <p className='p2'>Change Management</p>
               <button className="learn-more-button">Learn More</button>
             </div>
 
@@ -79,7 +79,7 @@ function OurServices() {
               <img src={PublicRelations} alt="PublicRelations" />
               <p>Public Relations</p>
               <p className='p2'>Media Relations | Crisis Management</p>
-              <p className='p2'>Reputation Management | Community Relations</p>
+              <p className='p2'>Reputation Management</p>
               <button className="learn-more-button">Learn More</button>
             </div>
             <div className="service">
