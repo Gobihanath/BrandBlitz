@@ -1,9 +1,8 @@
 import React from 'react';
 import './DigitalMarketing.css'
-import { Link } from 'react-router-dom'
-import video10 from '../Components/Assets/6558232-uhd_3840_2160_25fps.mp4'
-import video11 from '../Components/Assets/6558144-uhd_3840_2160_25fps.mp4'
-import Footer from '../Components/Footer/Footer'
+import video10 from '../../Components/Assets/6558232-uhd_3840_2160_25fps.mp4'
+import video11 from '../../Components/Assets/6558144-uhd_3840_2160_25fps.mp4'
+import Footer from '../../Components/Footer/Footer'
 
 
 
@@ -12,7 +11,7 @@ import Footer from '../Components/Footer/Footer'
 const DigitalMarketing =() =>{
     return (
     <div>
-        <div className="zoro">
+        <div className="zero">
             <div className="vid">
                 <video src={video10} autoPlay loop muted></video>
             </div>

@@ -9,6 +9,7 @@ import ForgetPw from './Pages/ForgetPw';
 import Contact from './Pages/Contact';
 import AboutUs from './Pages/AboutUs';
 import OurServices from './Pages/OurServices';
+import DigitalMarketing from './Components/services/DigitalMarketing';
 
 
 function App() {
@@ -24,10 +25,9 @@ function App() {
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/AboutUs' element={<AboutUs/>}/>
       <Route path='/OurServices' element={<OurServices/>}/>
+      <Route path='/digitalmarketing' element={<DigitalMarketing/>}/>
       
     </Routes>
-
-
     </BrowserRouter>  
     </div>
   );

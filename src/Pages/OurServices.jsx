@@ -2,7 +2,7 @@ import React from 'react'
 import './OurServices.css'
 import { Link } from 'react-router-dom'
 import Video from '../Components/Assets/pexels-rodnae-productions-7883678 (2160p).mp4'
-import DigitalMarketing from '../Components/Assets/DigitalMarketing.jpg'
+import DigitalMarketing1 from '../Components/Assets/DigitalMarketing.jpg'
 import EventPlanning from '../Components/Assets/EventPlanning.jpg'
 import BrandStrategy from '../Components/Assets/BrandStrategy.jpg'
 import ConsultingServices from '../Components/Assets/ConsultingServices.jpg'
@@ -13,6 +13,7 @@ import WebDesign from '../Components/Assets/WebDesign.jpg'
 import Footer from '../Components/Footer/Footer'
 import Clients from '../Components/Clients/Clients'
 import YouTubeEmbed from '../Components/YouTubeEmbed/YouTubeEmbed';
+import DigitalMarketing from '../Components/services/DigitalMarketing'
 
 function OurServices() {
   return (
@@ -43,14 +44,14 @@ function OurServices() {
 
           <div className="services">
             <div className="service">
-              <img src={DigitalMarketing} alt="DigitalMarketing" />
+              <img src={DigitalMarketing1} alt="DigitalMarketing" />
 
               <p className='p1'>Digital Marketing</p>
               <p className='p2'>Online Video | Paid Search</p>
               <p className='p2'>Partnerships | Programmatic Display</p>
-             
+              <Link to='/DigitalMarketing'>
                 <button className="learn-more-button" src="">Learn More</button>
-              
+              </Link>
             </div>
             <div className="service">
               <img src={EventPlanning} alt="EventPlanning" />
