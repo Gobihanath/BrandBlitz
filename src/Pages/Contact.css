@@ -6,10 +6,10 @@
 }
 
 .contact-wrapper {
-    background-image: url('E:../Components/Assets/audio-headset-used-by-call-center-agents-help-clients-telecommunication-with-technology-empty-customer-service-workstation-with-headphones-computers-modern-gadgets.jpg');
+    background-image: url('E:\WebApp\BrandBlitz\src\Components\Assets\contactbg.jpg');
     height: 50vh;
     width: 100%;
-    background-position: 100% 100%;
+    background-position: cover;
     background-attachment: fixed;
     text-align: center;
     background-repeat: no-repeat;
@@ -59,7 +59,7 @@
 .line div:nth-child(2){
     height: 3px;
     width: 70px;
-    background:rgb(214, 102, 201);
+    background:rgb(162, 15, 162);
     border-radius: 5px;
 
 }

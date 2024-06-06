@@ -25,7 +25,7 @@ const Contact = () => {
           </div>
 
           <p className='text'>
-          Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.LOREM IPSUM GENERATOR
+          Have a question, comment, or suggestion? We’d love to hear from you! Feel free to reach out to our team using the contact details below. Whether you’re interested in our products, services, or just want to say hello, we’re here to help.
           </p>
         </div>
 
