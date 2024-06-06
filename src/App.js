@@ -10,6 +10,14 @@ import Contact from './Pages/Contact';
 import AboutUs from './Pages/AboutUs';
 import OurServices from './Pages/OurServices';
 import DigitalMarketing from './Components/services/DigitalMarketing';
+import EventPlanning1 from './Components/services/EventPlanning1';
+import BrandStrategy1 from './Components/services/Brandstrategy1';
+import ConsultingServices1 from './Components/services/ConsultingServices1';
+import PublicRelations1 from './Components/services/PublicRelations1';
+import InfluenceMarketing1 from './Components/services/InfluenceMarketing1';
+import News1 from './Components/services/News1';
+import WebDesign1 from './Components/services/WebDesign1';
+
 
 
 function App() {
@@ -25,7 +33,17 @@ function App() {
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/AboutUs' element={<AboutUs/>}/>
       <Route path='/OurServices' element={<OurServices/>}/>
-      <Route path='/digitalmarketing' element={<DigitalMarketing/>}/>
+      <Route path='/DigitalMarketing' element={<DigitalMarketing/>}/>
+      <Route path='/EventPlanning1' element={<EventPlanning1/>}/>
+      <Route path='/BrandStrategy1' element={<BrandStrategy1/>}/>
+      <Route path='/ConsultingServices1' element={<ConsultingServices1/>}/>
+      <Route path='/PublicRelations1' element={<PublicRelations1/>}/>
+      <Route path='/InfluenceMarketing1' element={<InfluenceMarketing1/>}/>
+      <Route path='/News1' element={<News1/>}/>
+      <Route path='/WebDesign1' element={<WebDesign1/>}/>
+     
+     
+     
       
     </Routes>
     </BrowserRouter>  

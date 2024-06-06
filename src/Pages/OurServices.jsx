@@ -57,21 +57,31 @@ function OurServices() {
               <p>Event Planning</p>
               <p className='p2'>Venue Selection | Event Design and Theme</p>
               <p className='p2'>Entertainement | Vendor management</p>
+
+              <Link to='/EventPlanning1'>
               <button className="learn-more-button">Learn More</button>
+              </Link>
             </div>
             <div className="service">
               <img src={BrandStrategy} alt="BrandStrategy" />
               <p>Brand Strategy</p>
               <p className='p2'>Brand Positioning | Competitive Analysis</p>
               <p className='p2'>Brand Identity Development | Content Strategy</p>
+
+              <Link to='/BrandStrategy1'>
               <button className="learn-more-button">Learn More</button>
+              </Link>
+
             </div>
             <div className="service">
               <img src={ConsultingServices} alt="ConsultingServices" />
               <p>Consulting Services</p>
               <p className='p2'>Financial Advisory | Risk Management</p>
               <p className='p2'>Change Management</p>
+              
+              <Link to='/ConsultingServices1'>
               <button className="learn-more-button">Learn More</button>
+              </Link>
             </div>
 
             <div className="service">
@@ -79,28 +89,44 @@ function OurServices() {
               <p>Public Relations</p>
               <p className='p2'>Media Relations | Crisis Management</p>
               <p className='p2'>Reputation Management</p>
+
+              <Link to='/PublicRelations1'>
               <button className="learn-more-button">Learn More</button>
+              </Link>
+
             </div>
             <div className="service">
               <img src={InfluenceMarketing} alt="InfluenceMarketing" />
               <p>Influencer Marketing</p>
               <p className='p2'>Giveaways and Contests | Campaign Planning</p>
               <p className='p2'>Sponsored Posts and Product Placements</p>
+
+              <Link to='/InfluenceMarketing1'>
               <button className="learn-more-button">Learn More</button>
+              </Link>
+
             </div>
             <div className="service">
               <img src={News} alt="News" />
               <p>News Paper  & Magazine Marketing</p>
               <p className='p2'>Print Advertising Design | Ad Placement</p>
               <p className='p2'>Advertorials and Sponsored Content</p>
+
+              <Link to='/News1'>
               <button className="learn-more-button">Learn More</button>
+              </Link>
+
             </div>
             <div className="service">
               <img src={WebDesign} alt="WebDesign" />
               <p>Web design & development</p>
               <p className='p2'>UI UX Design | Responsive Web Design</p>
               <p className='p2'>Graphic Design and Visual Elements</p>
+
+              <Link to='/WebDesign1'>
               <button className="learn-more-button">Learn More</button>
+              </Link>
+
             </div>
 
           </div>
