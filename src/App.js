@@ -10,7 +10,7 @@ import Contact from './Pages/Contact';
 import AboutUs from './Pages/AboutUs';
 import OurServices from './Pages/OurServices';
 import DigitalMarketing from './Components/services/DigitalMarketing';
-import EventPlanning1 from './Components/services/EventPlanning1';
+import Eventplanning1 from './Components/services/Eventplanning1';
 import BrandStrategy1 from './Components/services/Brandstrategy1';
 import ConsultingServices1 from './Components/services/ConsultingServices1';
 import PublicRelations1 from './Components/services/PublicRelations1';
@@ -34,7 +34,7 @@ function App() {
       <Route path='/AboutUs' element={<AboutUs/>}/>
       <Route path='/OurServices' element={<OurServices/>}/>
       <Route path='/DigitalMarketing' element={<DigitalMarketing/>}/>
-      <Route path='/EventPlanning1' element={<EventPlanning1/>}/>
+      <Route path='/Eventplanning1' element={<Eventplanning1/>}/>
       <Route path='/BrandStrategy1' element={<BrandStrategy1/>}/>
       <Route path='/ConsultingServices1' element={<ConsultingServices1/>}/>
       <Route path='/PublicRelations1' element={<PublicRelations1/>}/>

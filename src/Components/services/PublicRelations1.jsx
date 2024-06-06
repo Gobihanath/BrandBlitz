@@ -17,7 +17,7 @@ const PublicRelations1 =() =>{
                 <img src={photo1} alt=""></img>
             </div>
             <div className="content1">
-                <h2>Public Relations1</h2>
+                <h2>Public Relations Imporovement</h2>
                 
             </div>
         </div>

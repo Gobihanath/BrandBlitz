@@ -17,7 +17,7 @@ const News1 =() =>{
                 <img src={photo1} alt=""></img>
             </div>
             <div className="content1">
-                <h2>News</h2>
+                <h2>News Paper  & Magazine Marketing</h2>
                 
             </div>
         </div>

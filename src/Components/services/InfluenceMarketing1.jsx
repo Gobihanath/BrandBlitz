@@ -17,7 +17,7 @@ const InfluenceMarketing1 =() =>{
                 <img src={photo1} alt=""></img>
             </div>
             <div className="content1">
-                <h2>Influence Marketing</h2>
+                <h2>Influencer Marketing</h2>
                 
             </div>
         </div>

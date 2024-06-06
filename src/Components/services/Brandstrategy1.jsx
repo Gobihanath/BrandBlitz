@@ -15,7 +15,7 @@ const  BrandStrategy1=() =>{
                 <img src={photo1} alt=""></img>
             </div>
             <div className="content1">
-                <h2>Event Planning</h2>
+                <h2>Brand Strategy</h2>
                 
             </div>
         </div>

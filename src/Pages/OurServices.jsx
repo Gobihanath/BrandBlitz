@@ -12,7 +12,7 @@ import News from '../Components/Assets/News.jpg'
 import WebDesign from '../Components/Assets/WebDesign.jpg'
 import Footer from '../Components/Footer/Footer'
 import YouTubeEmbed from '../Components/YouTubeEmbed/YouTubeEmbed';
-import DigitalMarketing from '../Components/services/DigitalMarketing'
+
 
 function OurServices() {
   return (

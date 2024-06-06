@@ -17,7 +17,7 @@ const WebDesign1 =() =>{
                 <img src={photo1} alt=""></img>
             </div>
             <div className="content1">
-                <h2>Web Design</h2>
+                <h2>Web design & Development</h2>
                 
             </div>
         </div>
