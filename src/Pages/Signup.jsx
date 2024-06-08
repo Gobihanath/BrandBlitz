@@ -5,6 +5,7 @@ import { FaUser } from "react-icons/fa";
 import { FaLock } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { MdDriveFileRenameOutline } from "react-icons/md";
+import { Link } from 'react-router-dom';
 
 const Signup = () => {
   return (
@@ -36,8 +37,9 @@ const Signup = () => {
                       <FaLock className='icon'/>
                     </div>
 
-                
-                <button type='submit'>Sign Up</button>
+                <Link to='/'>
+                <button type='submit' >Sign Up</button>
+                </Link>
 
               </form>
             </div>

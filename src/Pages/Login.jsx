@@ -5,6 +5,7 @@ import { FaLock } from "react-icons/fa";
 import loginimg from '../Components/Assets/Login-amico.png'
 import Signup from './Signup';
 import ForgetPw from './ForgetPw';
+import { Link } from 'react-router-dom';
 
 
 const Login = () => {
@@ -31,9 +32,9 @@ const Login = () => {
                   <a href='ForgetPw'>Forgot Password?</a>
                 </div>
 
-
+                <Link to='/'>
                 <button type='submit'>Log in</button>
-
+                </Link>
                 <div className='register-link'>
                   <p>Don't have an account?  <a href='Signup'>Register</a></p>
                 </div>
