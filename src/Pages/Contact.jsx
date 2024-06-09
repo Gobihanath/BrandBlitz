@@ -11,6 +11,32 @@ import contactimg from '../Components/Assets/4111242.jpg'
 
 
 const Contact = () => {
+
+  const [result, setResult] = React.useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "633c03ac-3e38-4f81-86e6-a34787a9d61e");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
+
   return(
     <div className='contact-container'>
         <div className='contact-wrapper'>
@@ -59,7 +85,7 @@ const Contact = () => {
           </div>
 
           <div className='contact-form'>
-            <form>
+            <form onSubmit={onSubmit}>
               <div>
                 <input type='text' className='form-control' placeholder='First Name'/>
                 <input type='text' className='form-control' placeholder='Last Name'/>
@@ -71,6 +97,8 @@ const Contact = () => {
 
               <textarea rows='5' placeholder='Message' className='form-control'></textarea>
               <input type='submit' className='send-btn' value='send message'/>
+              <br/>
+              <span>{result}</span>
             </form>
             
 

@@ -6,7 +6,7 @@
 }
 
 .contact-wrapper {
-    background-image: url('E:\WebApp\BrandBlitz\src\Components\Assets\contactbg.jpg');
+    background-image: url('C:/Web development project/BrandBlitz/src/Components/Assets/contactbg.jpg');
     height: 50vh;
     width: 100%;
     background-position: cover;
@@ -133,6 +133,10 @@
     
 }
 
+.contact-form span{
+    display: block;
+    margin: 20px 0;
+}
 .send-btn{
     font-size: 1rem;
     text-transform: uppercase;
